@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+🌍 HelloWorld - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o frontend do projeto **HelloWorld**, desenvolvido com React, Bootstrap e Axios. Ele apresenta uma interface simples onde o usuário pode digitar seu nome e visualizar uma saudação personalizada com "HelloWorld".
 
-## Available Scripts
+🔗 Repositório: HelloWord-Front
 
-In the project directory, you can run:
+🚀 Tecnologias Utilizadas
 
-### `npm start`
+✅ React 18  
+✅ Bootstrap 5  
+✅ Axios  
+✅ Node.js (para ambiente de desenvolvimento)  
+✅ NPM (gerenciador de pacotes)  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+⚙️ Como rodar o projeto localmente
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ **Pré-requisitos**
 
-### `npm test`
+- Node.js e npm instalados na máquina  
+- Editor de código (VSCode, WebStorm etc)  
+- Backend do projeto rodando (para comunicação via API)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+▶️ **Passos para rodar:**
 
-### `npm run build`
+1. Clone o repositório:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/GabrielSedcu1/HelloWord-Front.git
+cd HelloWord-Front
+Instale as dependências:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copiar
+Editar
+npm install
+Inicie a aplicação React em modo de desenvolvimento:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copiar
+Editar
+npm start
+A aplicação abrirá automaticamente no navegador em:
+👉 http://localhost:3000
 
-### `npm run eject`
+⚠️ Certifique-se de que o backend esteja rodando corretamente para que a funcionalidade da saudação funcione.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📁 Estrutura de Pastas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+csharp
+Copiar
+Editar
+HELLOWORLD-FRONT/
+├── node_modules/           # Dependências do projeto
+├── public/                 # Arquivos públicos (HTML, favicon, etc)
+├── src/                    # Código-fonte do frontend
+│   ├── App.css             # Estilos globais da aplicação
+│   ├── App.js              # Componente principal
+│   ├── App.test.js         # Testes do componente App
+│   ├── index.css           # Estilos base
+│   ├── index.js            # Ponto de entrada React
+│   ├── logo.svg            # Imagem padrão do React
+│   ├── reportWebVitals.js  # Monitoramento de performance
+│   └── setupTests.js       # Arquivo de setup para testes
+├── .gitignore              # Arquivos e pastas ignorados pelo Git
+├── package-lock.json       # Gerenciamento de dependências travadas
+├── package.json            # Scripts e dependências do projeto
+└── README.md               # Documentação do projeto
+🖥️ Funcionalidade Principal
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Saudação Personalizada: O usuário pode digitar seu nome em um campo de entrada, clicar em "Salvar" e visualizar uma mensagem como:
+👉 HelloWorld Veronica
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📚 Referência
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Curso: Fernanda Kipper | Dev
+🎥 Tutorial Completo de Java Spring - YouTube
